@@ -1,18 +1,17 @@
 # Table of contents
 
-* [FDE](README.md)
-* [Compiling Rabbit for MacOS (arm64)](compiling-rabbit-for-macos-arm64.md)
-
 ## Vivado
 
-* [Installing Vivado on Ubuntu](vivado/installing-vivado-on-ubuntu.md)
+* [Installing Vivado on Ubuntu](README.md)
 
 ## FDE
 
-* [FDE Overview](fde-1/fde-overview.md)
-* [FDE Project](fde-1/fde-project.md)
-* [FDE Midterm Presentation](fde-1/fde-midterm-presentation.md)
-* [FDE & SMIMS VeriComm](fde-1/fde-and-smims-vericomm.md)
+* [FDE Overview](fde/fde-overview.md)
+* [FDE Tools & Documentation](fde/fde-tools-and-documentation.md)
+* [FDE Project](fde/fde-project.md)
+* [FDE Midterm Presentation](fde/fde-midterm-presentation.md)
+* [FDE & SMIMS VeriComm](fde/fde-and-smims-vericomm.md)
+* [Compiling Rabbit for MacOS (arm64)](fde/compiling-rabbit-for-macos-arm64.md)
 
 ## I2C Protocol
 

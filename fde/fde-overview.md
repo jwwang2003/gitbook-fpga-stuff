@@ -1,5 +1,7 @@
 ---
-description: A little introduction to the FDE board, offered as part of the
+description: >-
+  A little introduction to the FDE board & a little analysis of the on-board
+  components from a complete beginner in this field.
 ---
 
 # FDE Overview
@@ -10,7 +12,9 @@ The FDE midterm project is a comprehensive experiment that encompasses the entir
 
 As a student with no background in microelectronics, all these workflows, tools, and concepts were initially foreign to me. The process of writing RTL code and performing logic synthesis to produce the gate-level code seemed daunting at first, as I had no understanding of what those terms even meant.
 
-Throughout the course of working on this lab, I have gained significant insight into how FPGAs (or PLDs) operate—specifically their internal architectures, how they are “programmed,” and much more. Below, I have compiled my notes, key takeaways, and documentation from this learning experience.
+Throughout the course of working on this lab, I have gained significant insight into how FPGAs (or PLDs) operate—specifically their internal architectures, how they are “programmed,” and much more. In this "FDE" series, I have compiled my notes, experiments, takeaways, and documentation from this learning experience.
+
+Also special thanks for 王伶俐老师！
 
 ***
 
@@ -29,7 +33,9 @@ Doing a rough inspection of the on-board components, we can observe the followin
 * [Infineon CY7C68013A-56PVXC](fde-overview.md#infineon-cy7c68013a-56pvxc)
 * [ATMEL542 IC](fde-overview.md#atmel542-ic)
 * NSK 24.00 7G
-  * Is this supposed to be a 24.000MHz crystal? The spec sheet said that the internal oscillator was 30MHz.
+  * This is the physical onboard 24.000MHz crystal that drives the Infineon USB controller
+  * There is another 30MHz clock listed in the spec-sheet of the FPE board (on pin P185)
+    * Unsure where this 30MHz clock comes from, maybe from a PLL?
 * Some voltage regulators? (at the side)
 * SMD capacitors and resistors
 * GPIO, LEDs, buttons, PID switches, etc.
