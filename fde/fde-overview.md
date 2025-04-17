@@ -14,7 +14,9 @@ As a student with no background in microelectronics, all these workflows, tools,
 
 Throughout the course of working on this lab, I have gained significant insight into how FPGAs (or PLDs) operate—specifically their internal architectures, how they are “programmed,” and much more. In this "FDE" series, I have compiled my notes, experiments, takeaways, and documentation from this learning experience.
 
-Also special thanks for 王伶俐老师！
+Also special thanks to 王伶俐老师！
+
+<figure><img src="../.gitbook/assets/FDE_FLOW.JPG" alt=""><figcaption><p>A photo I took of the blackboard, during the second or third lecture, explaining the FDE workflow. At the time I still had no idea what it meant, or even what those things were.</p></figcaption></figure>
 
 ***
 
